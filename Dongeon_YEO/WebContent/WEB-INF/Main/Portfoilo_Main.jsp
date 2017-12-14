@@ -138,38 +138,25 @@ marker.setMap(map);
   <h2>Portfolio</h2><br>
   <h4>What we have created</h4>
   <div class="row text-center slideanim">
+    
     <div class="col-sm-4">
-      <div class="thumbnail">
-        <!-- <img src="images/paris.jpg" alt="Paris" width="400" height="300"> -->
-      	<div id="project1" class="carousel slide" data-ride="carousel">
-      	
-      	<!-- Indicator -->
-      	<ul class="carousel-indicators">
-      		<li data-target="project1" data-slide-to="0" class="actice"></li>
-      		<li data-target="project1" data-slide-to="1"></li>
-      		<li data-target="project1" data-slide-to="3"></li>
-      		<li data-target="project1" data-slide-to="4"></li>
-      	</ul>
-      	<!-- slide show  -->
-      	  <div class="carousel-inner">
-        	<div class="carousel-item active"><img src="images/SWT/swt01.jsg" alt="" /></div>
-        	<div class="carousel-item "><img src="images/SWT/swt02.jsg" alt="" /></div>
-        	<div class="carousel-item "><img src="images/SWT/swt03.jsg" alt="" /></div>
-        	<div class="carousel-item "><img src="images/SWT/swt04.jsg" alt="" /></div>
-        </div>
-      	
-      	</div>
+      <div class="thumbnail">  
+        <img src="images/SWT/swt01.bmp" alt="swt" width="400" height="300">
         <p><strong>Shell We Talk ?</strong></p>
         <p>실시간 번역기능을 이용한 랜덤 채팅 메신저</p>
       </div>
     </div>
+    
+    
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="images/newyork.jpg" alt="New York" width="400" height="300">
+        <img src="images/MORY/mory01.jpg" alt="New York" width="400" height="300">
         <p><strong>M O R Y</strong></p>
         <p>초보 엄마아빠를 위한 육아 SNS</p>
       </div>
     </div>
+    
+    
     <div class="col-sm-4">
       <div class="thumbnail">
         <img src="images/sanfran.jpg" alt="San Francisco" width="400" height="300">
