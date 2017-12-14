@@ -142,16 +142,16 @@ marker.setMap(map);
     <div class="col-sm-4">
      
       <div class="thumbnail">  
-        <img src="images/SWT/swt01.jpg" alt="swt" width="400" height="300">
+        <img src="images/SWT/swt02.jpg" alt="swt" width="400" height="300">
         <p><strong>Shell We Talk ?</strong></p>
-        <p>실시간 번역기능을 이용한 랜덤 채팅 메신저</p>
+        <p>실시간 번역기능을 이용한 랜덤 채팅 메신저 </p>
       </div>
     </div>
     
     
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="images/MORY/mory01.jpg" alt="mory" width="400" height="500">
+        <img src="images/MORY/mory01.jpg" alt="mory" width="400" height="300">
         <p><strong>M O R Y</strong></p>
         <p>초보 엄마아빠를 위한 육아 SNS</p>
       </div>
@@ -214,11 +214,12 @@ marker.setMap(map);
           <h1>2011-2013</h1>
         </div>
         <div class="panel-body">
-          <p><strong>20</strong> Lorem</p>
-          <p><strong>15</strong> Ipsum</p>
-          <p><strong>5</strong> Dolor</p>
-          <p><strong>2</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
+          <p><strong>2011.05 - 2011.12</strong> (주)마루솔</p>
+          <li><strong>업무 : </strong> 포장 및 배송</li>
+          <p><strong>2011.12 - 2012.12</strong> 현대백화점</p>
+           <li><strong>업무 : </strong> 주차 서비스</li>
+          <p><strong>2012.12 - 2013.03</strong> (주)브링스코리아</p>
+           <li><strong>업무 : </strong> 현금 운송 보조</li>
         </div>
         <div class="panel-footer">
           <h3>$19</h3>
@@ -233,11 +234,13 @@ marker.setMap(map);
           <h1>2013-2015</h1>
         </div>
         <div class="panel-body">
-          <p><strong>50</strong> Lorem</p>
-          <p><strong>25</strong> Ipsum</p>
-          <p><strong>10</strong> Dolor</p>
-          <p><strong>5</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
+          <p><strong>2013.04 - 2013.08</strong> 영마트</p>
+          <li><strong>업무 : </strong> 진열 </li>
+          <p><strong>2013.09 - 2013.12</strong> 로건팜</p>
+          <li><strong>업무 : </strong> 픽킹,스프레이,스틱</li>
+          <p><strong>2014.01 - 2014.10</strong> 하나로마트</p>
+          <li><strong>업무 : </strong> 새벽시장,배송,진열</li>
+         
         </div>
         <div class="panel-footer">
           <h3>2015-2017</h3>

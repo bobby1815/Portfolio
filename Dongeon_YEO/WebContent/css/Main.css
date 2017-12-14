@@ -91,6 +91,10 @@
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
   }
+  panel-body
+  {
+  	text-align: left;
+  }
   .panel-footer {
       background-color: white !important;
   }
