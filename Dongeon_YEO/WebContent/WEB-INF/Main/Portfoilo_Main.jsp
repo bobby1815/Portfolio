@@ -140,7 +140,25 @@ marker.setMap(map);
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="images/paris.jpg" alt="Paris" width="400" height="300">
+        <!-- <img src="images/paris.jpg" alt="Paris" width="400" height="300"> -->
+      	<div id="project1" class="carousel slide" data-ride="carousel">
+      	
+      	<!-- Indicator -->
+      	<ul class="carousel-indicators">
+      		<li data-target="project1" data-slide-to="0" class="actice"></li>
+      		<li data-target="project1" data-slide-to="1"></li>
+      		<li data-target="project1" data-slide-to="3"></li>
+      		<li data-target="project1" data-slide-to="4"></li>
+      	</ul>
+      	<!-- slide show  -->
+      	  <div class="carousel-inner">
+        	<div class="carousel-item active"><img src="images/SWT/swt01.jsg" alt="" /></div>
+        	<div class="carousel-item "><img src="images/SWT/swt02.jsg" alt="" /></div>
+        	<div class="carousel-item "><img src="images/SWT/swt03.jsg" alt="" /></div>
+        	<div class="carousel-item "><img src="images/SWT/swt04.jsg" alt="" /></div>
+        </div>
+      	
+      	</div>
         <p><strong>Shell We Talk ?</strong></p>
         <p>실시간 번역기능을 이용한 랜덤 채팅 메신저</p>
       </div>
