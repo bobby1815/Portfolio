@@ -13,6 +13,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzUkPixaZK0jlX7XqV6fV2cyGeEtnBUO4&callback=myMap"async defer></script>	
 	
+	
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type='text/javascript' src='js/jquery.simplemodal.js'></script>
+
+
 <script>
 function myMap() {
 var myCenter = new google.maps.LatLng(37.477073, 126.780982);
@@ -107,29 +112,41 @@ marker.setMap(map);
       <a href="www.naver.com"><span class="glyphicon glyphicon-off logo-small"></span></a>
       <h4>성장 과정</h4>
     </div>
+    
+    
     <div class="col-sm-4">
-     <a> <span class="glyphicon glyphicon-heart logo-small"></span></a>
+     <a href=""> <span class="glyphicon glyphicon-heart logo-small"></span></a>
       <h4>성격 장/단점</h4>
     </div>
+    
+    
     <div class="col-sm-4">
       <a href=""><span class="glyphicon glyphicon-lock logo-small"></span></a>
       <h4>대학 생활</h4>
     </div>
+    
   </div>
   <br><br>
+  
   <div class="row slideanim">
     <div class="col-sm-4">
       <a href=""><span class="glyphicon glyphicon-leaf logo-small"></span></a>
       <h4>경력 사항</h4>
     </div>
+    
+    
     <div class="col-sm-4">
       <a href=""><span class="glyphicon glyphicon-certificate logo-small"></span></a>
       <h4>지원 동기  </h4>
     </div>
+    
+    
     <div class="col-sm-4">
       <a href=""><span class="glyphicon glyphicon-wrench logo-small"></span></a>
       <h4 style="color:#303030;">입사후 포부</h4>
     </div>
+    
+    
   </div>
 </div>
 
@@ -214,12 +231,12 @@ marker.setMap(map);
           <h1>2011-2013</h1>
         </div>
         <div class="panel-body">
-          <p><strong>2011.05 - 2011.12</strong> (주)마루솔</p>
-          <li><strong>업무 : </strong> 포장 및 배송</li>
-          <p><strong>2011.12 - 2012.12</strong> 현대백화점</p>
-           <li><strong>업무 : </strong> 주차 서비스</li>
-          <p><strong>2012.12 - 2013.03</strong> (주)브링스코리아</p>
-           <li><strong>업무 : </strong> 현금 운송 보조</li>
+          <p><strong>2011.05 - 2011.12</strong> (주)마루솔 / 사원</p>
+          <p><strong>업무 : </strong> 포장 및 배송</p>
+          <p><strong>2011.12 - 2012.12</strong> 현대백화점 / 아르바이트</p>
+          <p><strong>업무 : </strong> 주차 서비스</p>
+          <p><strong>2012.12 - 2013.03</strong> (주)브링스코리아 / 아르바이트</p>
+          <p><strong>업무 : </strong> 현금 운송 보조</p>
         </div>
         <div class="panel-footer">
           <h3>$19</h3>
@@ -234,12 +251,12 @@ marker.setMap(map);
           <h1>2013-2015</h1>
         </div>
         <div class="panel-body">
-          <p><strong>2013.04 - 2013.08</strong> 영마트</p>
-          <li><strong>업무 : </strong> 진열 </li>
-          <p><strong>2013.09 - 2013.12</strong> 로건팜</p>
-          <li><strong>업무 : </strong> 픽킹,스프레이,스틱</li>
-          <p><strong>2014.01 - 2014.10</strong> 하나로마트</p>
-          <li><strong>업무 : </strong> 새벽시장,배송,진열</li>
+          <p><strong>2013.04 - 2013.08</strong> 영마트 / 아르바이트</p>
+          <p><strong>업무 : </strong> 진열 </p>
+          <p><strong>2013.09 - 2013.12</strong> 로건팜 / 직원</p>
+          <p><strong>업무 : </strong> 픽킹,스프레이,스틱</p>
+          <p><strong>2014.01 - 2014.10</strong> 하나로마트 / 직원</p>
+          <p><strong>업무 : </strong> 새벽시장,배송,진열</p>
          
         </div>
         <div class="panel-footer">
@@ -255,11 +272,12 @@ marker.setMap(map);
           <h1>2015-2017</h1>
         </div>
         <div class="panel-body">
-          <p><strong>100</strong> Lorem</p>
-          <p><strong>50</strong> Ipsum</p>
-          <p><strong>25</strong> Dolor</p>
-          <p><strong>10</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
+          <p><strong>2015.05 - 2016.02</strong> (주)포스뱅크 / 아르바이트</p>
+          <p><strong>업무 : </strong> 포장 및 검사</p>
+          <p><strong>2016.06 - 2016.09</strong> 참나무와 사람들 / 팀장</p>
+          <p><strong>업무 : </strong>모델하우스 대행사  </p>
+          <p><strong>2017.02 - 2017.10</strong> 부천마트 / 팀장 </p>
+          <p><strong>업무 : </strong>진열,배송,발주</p>
         </div>
         <div class="panel-footer">
           <h3>$49</h3>
@@ -276,7 +294,7 @@ marker.setMap(map);
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
-      <p>언제나 도전적이고 열정적인 마인드를 가지고 기다리겠습다</p>
+      <p>언제나 도전적이고 열정적인 마인드를 가지고 연락 기다리겠습다.</p>
       <p><span class="glyphicon glyphicon-map-marker"></span> 경기도 부천시, 대한민국</p>
       <p><span class="glyphicon glyphicon-phone"></span> 010-9667-8251 </p>
       <p><span class="glyphicon glyphicon-envelope"></span> bobby1815@naver.com </p>
@@ -352,6 +370,30 @@ $(document).ready(function(){
   });
 })
 </script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+ $("#open").click(function(){
+  $("#modal_content").modal(); 
+ });
+ $("#m_close").click(function(){
+  $.modal.close();
+ });
+}); 
+</script>
+<style>
+#simplemodal-overlay {background-color:#000;}
+#modal_content{display:none;margin:50 auto;width:200px;height:100px;background:blue;color:#fff}
+</style>
+<div id="content">
+ 모달팝업 테스트<input type="button" value="팝업" id="open">
+</div> 
+ </body>
+</html>
+<div id="modal_content">
+ 팝업내용<input type="button" value="닫기" id="m_close">
+</div>
 
 
 </body>

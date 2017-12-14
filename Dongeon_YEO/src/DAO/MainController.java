@@ -10,7 +10,7 @@ public class MainController implements Controller
 {
 
 	@Override
-	public ModelAndView handleRequest(HttpServletRequest arg0, HttpServletResponse arg1) throws Exception {
+	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		
 		ModelAndView modelAndView = new ModelAndView();
 		
