@@ -13,9 +13,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzUkPixaZK0jlX7XqV6fV2cyGeEtnBUO4&callback=myMap"async defer></script>	
 	
-	
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script type='text/javascript' src='js/jquery.simplemodal.js'></script>
+
 
 
 <script>
@@ -108,41 +106,144 @@ marker.setMap(map);
   <h4>저를 소개합니다!</h4>
   <br>
   <div class="row slideanim">
-    <div class="col-sm-4">
-      <a href="www.naver.com"><span class="glyphicon glyphicon-off logo-small"></span></a>
+    <div class="col-sm-4" >
+      <div data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-off logo-small"  ></span></div>
       <h4>성장 과정</h4>
     </div>
     
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>사랑합니다 회장님.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
     
     <div class="col-sm-4">
-     <a href=""> <span class="glyphicon glyphicon-heart logo-small"></span></a>
+     <div data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-heart logo-small"></span></div>
       <h4>성격 장/단점</h4>
     </div>
     
+    <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>사랑합니다 회장님.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
     
-    <div class="col-sm-4">
-      <a href=""><span class="glyphicon glyphicon-lock logo-small"></span></a>
+    
+    <div class="col-sm-4"  data-toggle="modal" data-target="#myModal">
+      <div data-toggle="modal" data-target="#myModal"> <span class="glyphicon glyphicon-lock logo-small"></span></div>
       <h4>대학 생활</h4>
     </div>
+    	    <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+    
+
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>사랑합니다 회장님.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+    
     
   </div>
   <br><br>
   
   <div class="row slideanim">
     <div class="col-sm-4">
-      <a href=""><span class="glyphicon glyphicon-leaf logo-small"></span></a>
+      <div data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-leaf logo-small"></span></div>
       <h4>경력 사항</h4>
     </div>
-    
+    <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>사랑합니다 회장님.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
     
     <div class="col-sm-4">
-      <a href=""><span class="glyphicon glyphicon-certificate logo-small"></span></a>
+      <div data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-certificate logo-small"></span></div>
       <h4>지원 동기  </h4>
     </div>
-    
+    <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>사랑합니다 회장님.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
     
     <div class="col-sm-4">
-      <a href=""><span class="glyphicon glyphicon-wrench logo-small"></span></a>
+      <div data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-wrench logo-small"></span></div>
       <h4 style="color:#303030;">입사후 포부</h4>
     </div>
     
@@ -371,29 +472,6 @@ $(document).ready(function(){
 })
 </script>
 
-<script type="text/javascript">
-
-$(document).ready(function(){
- $("#open").click(function(){
-  $("#modal_content").modal(); 
- });
- $("#m_close").click(function(){
-  $.modal.close();
- });
-}); 
-</script>
-<style>
-#simplemodal-overlay {background-color:#000;}
-#modal_content{display:none;margin:50 auto;width:200px;height:100px;background:blue;color:#fff}
-</style>
-<div id="content">
- 모달팝업 테스트<input type="button" value="팝업" id="open">
-</div> 
- </body>
-</html>
-<div id="modal_content">
- 팝업내용<input type="button" value="닫기" id="m_close">
-</div>
 
 
 </body>
