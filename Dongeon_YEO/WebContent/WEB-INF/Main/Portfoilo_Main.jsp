@@ -70,7 +70,7 @@ marker.setMap(map);
     <div class="col-sm-8">
       <h2>Profile</h2><br>
       <h4>안녕하십니까. 열정적이고 도전적인 준비된 개발자 <span style="color:blue;"><strong>여동언</strong></span>입니다. </h4><br>
-      <li>생년월일</li>
+      <li>생년월일</li> 1990년 2월 5일생
       <li>병역</li>
       <li>경력사항</li>
       <li>기술</li>
@@ -140,8 +140,9 @@ marker.setMap(map);
   <div class="row text-center slideanim">
     
     <div class="col-sm-4">
+     
       <div class="thumbnail">  
-        <img src="images/SWT/swt01.bmp" alt="swt" width="400" height="300">
+        <img src="images/SWT/swt01.jpg" alt="swt" width="400" height="300">
         <p><strong>Shell We Talk ?</strong></p>
         <p>실시간 번역기능을 이용한 랜덤 채팅 메신저</p>
       </div>
@@ -150,7 +151,7 @@ marker.setMap(map);
     
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="images/MORY/mory01.jpg" alt="New York" width="400" height="300">
+        <img src="images/MORY/mory01.jpg" alt="mory" width="400" height="500">
         <p><strong>M O R Y</strong></p>
         <p>초보 엄마아빠를 위한 육아 SNS</p>
       </div>
